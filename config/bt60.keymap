@@ -32,10 +32,10 @@
 &sys_reset  &trans      &kp UP    &trans      &trans  &trans  &trans      &trans      &trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PAUSE_BREAK
 &trans      &kp LEFT    &kp DOWN  &kp RIGHT   &trans  &trans  &trans      &trans      &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans           &bootloader
 &trans      &trans      &trans    &bt BT_CLR  &trans  &trans  &bt BT_PRV  &bt BT_NXT  &kp C_MUTE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PG_UP                       &trans
-&kp C_PREV  &kp C_NEXT  &trans                                &trans                                               &trans           &trans           &kp HOME         &kp PAGE_DOWN  &kp END
+&trans      &trans      &trans                                &trans                                               &trans           &trans           &kp HOME         &kp PAGE_DOWN  &kp END
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
     };
 };
